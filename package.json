@@ -1,0 +1,36 @@
+{
+  "name": "express-origin-guard",
+  "version": "1.0.0",
+  "description": "Lock an Express backend to a single trusted frontend origin, with strict http/https protocol enforcement.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/originGuard.test.js"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "cors",
+    "origin",
+    "security",
+    "frontend-lock",
+    "https"
+  ],
+  "author": "Pramod Sithara Jayansiri",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "peerDependencies": {
+    "express": "^5.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
